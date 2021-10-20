@@ -140,7 +140,8 @@ a.btn.dark:focus {
   text-align: center;
 }
 
-.item-img {
+.item-img,
+.item-two-img {
   width: 100%;
   max-width: 1100px;
   min-width: 500px;
@@ -158,11 +159,16 @@ a.btn.dark:focus {
 }
 
 .sec-text-desc {
+  line-height: 1.8em;
   margin-top: 2em;
-  width: 80%%;
-
 }
 
-/* .text-section-container {
-  width: 76%;
-} */
+/* second section */
+
+.main-sec.gray {
+  background-color: rgb(246, 246, 246);
+}
+
+.item-two-img {
+  padding: 2em 0 0 1em;
+}
