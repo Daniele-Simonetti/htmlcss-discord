@@ -123,3 +123,28 @@ a.btn.dark:active,
 a.btn.dark:focus {
   color: #265ee8;
 }
+
+/* main */
+/* first section */
+
+.section-img {
+  width: 50%;
+  text-align: end;
+}
+
+.section-text {
+  width: 40%;
+  text-align: left;
+}
+
+.section-text-title {
+  font-size: 3em;
+}
+.sec-text-desc {
+  margin-top: 2em;
+  vertical-align: middle;
+}
+
+.text-section-container {
+  width: 76%;
+}
