@@ -15,17 +15,15 @@ html {
   clear: both;
 }
 
-/* header section */
+/* header */
 header {
   background-image: url(../img/jumbo.png);
-  /* height: 500px; */
   width: 100%;
   background-size: cover;
 }
 
+/* nav */
 nav {
-  /* background-color: red;
-  height: 50px; */
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -35,7 +33,6 @@ nav {
 
 .float {
   float: left;
-  /* background-color: brown; */
   height: 100%;
 }
 
@@ -78,6 +75,7 @@ nav .float:nth-child(2) {
   text-decoration: underline;
 }
 
+/* btn left corner nav */
 a.btn {
   display: inline-block;
   background-color: white;
@@ -110,6 +108,7 @@ a.btn:hover {
   margin-bottom: 1.1em;
 }
 
+/* btns middle bottom jumbo text */
 a.btn.big {
   padding: 7px 23px;
 }
