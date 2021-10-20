@@ -208,7 +208,6 @@ a.btn.dark:focus {
 footer {
   background-color: #23272A;
   width: 100%;
-  height: 500px;
 }
 
 .footer.float {
@@ -228,24 +227,31 @@ footer {
   width: 90%;
   margin: 0 auto;
   padding-top: 5em;
+  border-bottom: 1px solid white;
 }
 
-.nav-menu.footer-nav {
-  color: white;
-  list-style-type: none;
-}
-
-.list-footer {
-  text-align: center;
-}
 
 .img-small {
   width: 30px;
   vertical-align: middle;
 }
 
-.nav-menu-footer {
-  list-style-type: none;
+.nav-menu-footer a {
   line-height: 2.5em;
   color: white;
+  text-decoration: none;
+}
+
+.nav-menu-footer li {
+  list-style-type: none;
+}
+
+.last-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+
+.last-float-right {
+  float: right;
 }
