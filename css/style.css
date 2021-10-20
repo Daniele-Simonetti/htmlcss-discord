@@ -239,6 +239,11 @@ footer {
   text-align: center;
 }
 
+.img-small {
+  width: 30px;
+  vertical-align: middle;
+}
+
 .nav-menu-footer {
   list-style-type: none;
   line-height: 2.5em;
