@@ -202,3 +202,45 @@ a.btn.dark:focus {
 .last-btn {
   display: block;
 }
+
+/* footer */
+/* layout footer */
+footer {
+  background-color: #23272A;
+  width: 100%;
+  height: 500px;
+}
+
+.footer.float {
+  width: calc(100% / 5);
+}
+
+.footer-title {
+  color: #7289DA;
+}
+
+.footer-text {
+  color: white;
+  line-height: 4em;
+}
+
+.footer-sec {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5em;
+}
+
+.nav-menu.footer-nav {
+  color: white;
+  list-style-type: none;
+}
+
+.list-footer {
+  text-align: center;
+}
+
+.nav-menu-footer {
+  list-style-type: none;
+  line-height: 2.5em;
+  color: white;
+}
