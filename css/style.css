@@ -128,13 +128,14 @@ a.btn.dark:focus {
 /* first section */
 
 .section-img {
-  width: 50%;
-  text-align: end;
+  width: 60%;
+  text-align: center;
 }
 
 .section-text {
   width: 40%;
   text-align: left;
+  padding: 10em 20% 10em 2%;
 }
 
 .section-text-title {
@@ -145,6 +146,6 @@ a.btn.dark:focus {
   vertical-align: middle;
 }
 
-.text-section-container {
+/* .text-section-container {
   width: 76%;
-}
+} */
